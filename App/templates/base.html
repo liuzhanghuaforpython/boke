@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/lrtk.css">
+    <link rel="stylesheet" href="/static/css/animation.css">
+    <script type="text/javascript" src="/static/js/js.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+
+    {% block extCSS %}
+
+    {% endblock %}
+</head>
+<body>
+     {% block head %}
+
+     {% endblock %}
+     {% block content %}
+
+     {% endblock %}
+     {% block foot %}
+
+     {% endblock %}
+
+     <script type="text/javascript" src="/static/js/silder.js"></script>
+     {% block extJS %}
+
+     {% endblock %}
+</body>
+</html>
